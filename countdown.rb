@@ -8,4 +8,4 @@ def countdown(seconds)
 end
 
 def countdown_with_sleep(seconds)
-  
+  sleep 1.seconds until Time.now > time + 10.seconds
